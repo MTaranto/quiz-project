@@ -81,6 +81,6 @@ function resetQuiz() {
   showQuestion();
 }
 function share() {
-  let conteudo = encodeURIComponent(document.title + ` Eu acertei ${score}%. Quanto será que você consegue? ` + window.location.href);
+  let conteudo = encodeURIComponent(`Conheça o ${document.title} do Dev Iniciante -` + ` Eu acertei ${score}%. Quanto será que você consegue? Clique no link: ` + window.location.href);
   document.querySelector('.share').href="https://api.whatsapp.com/send?text=" + conteudo;
 }
