@@ -10,13 +10,32 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-image: url(../images/question.jpg);
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #FFF;
+    color: white;
+    text-shadow: 2px 2px 2px #333;
     margin: 20px 0;
+}
+.start,
+a .share,
+.scoreArea .button {
+    padding: 10px 20px;
+    background-color: rgb(39, 150, 201);
+    color: #FFF;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(14, 9, 73);
+    margin-right: 10px;
+}
+.start:hover,
+a .share:hover,
+.scoreArea .button:hover {
+    background-color: rgb(38, 97, 124);
+    cursor: pointer;
 }
 
 .progress {
@@ -44,6 +63,7 @@ h1 {
 
 .question {
     color: #FFF;
+    text-shadow: 2px 2px 2px #333;
     font-size: 18px;
     margin: 20px 0;
 }
@@ -51,10 +71,10 @@ h1 {
     display: flex;
     align-items: center;
     height: 40px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 5px;
-    color: #AAA;
+    color: #FFF;
     font-size: 16px;
     cursor: pointer;
 }
@@ -68,14 +88,14 @@ h1 {
     margin-left: 5px;
     margin-right: 10px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #555;
+    color: #FFF;
 }
 .option:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 .scoreArea {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
@@ -97,13 +117,14 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 8px #333;
+
 }
 .scoreText2 {
     font-size: 16px;
     color: #000;
     margin-bottom: 10px;
 }
-
 .scoreArea button {
     border: 0;
     border-radius: 10px;
@@ -113,12 +134,13 @@ h1 {
     margin-top: 20px;
     cursor: pointer;
 }
-.scoreArea button:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 footer {
     margin-top: 20px;
     color: #FFF;
+    text-shadow: 2px 2px 2px #333;
     font-size: 13px;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
 }

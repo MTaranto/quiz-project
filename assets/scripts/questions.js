@@ -2,10 +2,10 @@ let questions = [
     {
         question: 'Em qual elemento HTML nós colocamos o JavaScript?',
         options: [
-            'tag <js>',
-            'tag <script>',
-            'tag <scripting>',
-            'tag <JavaScript>'
+            'Utilizando a tag js',
+            'Utilizando a tag script',
+            'Utilizando a tag scripting',
+            'Utilizando a tag JavaScript'
         ],
         answer: 1
     },
@@ -14,7 +14,7 @@ let questions = [
         options: [
             'Dentro da tag body',
             'Dentro da tag head',
-            'Tanto na tag body quanto a head estão corretas',
+            'Tanto dentro da tag body quanto da head estão corretas',
             'Em uma tag separada'
         ],
         answer: 2
@@ -32,18 +32,18 @@ let questions = [
     {
         question: 'Um arquivo JavaScript externo precisa ter a tag script para ser acessado',
         options: [
-            'Verdade',
+            'Verdadeiro',
             'Falso'
         ],
         answer: 1
     },
     {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
+        question: 'Como escrever um "Hello Wold!" em um alertbox?',
         options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'alertBox("Hello Wold!")',
+            'msgBox("Hello Wold!")',
+            'msg("Hello Wold!")',
+            'alert("Hello Wold!")'
         ],
         answer: 3
     },
@@ -78,7 +78,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como fazer um "if" que executa um código caso "i" for diferente de 5',
+        question: 'Como fazer uma condicional "if" que executa um código caso, "i" for diferente de 5',
         options: [
             'if (i != 5)',
             'if (i <> 5)',
